@@ -16,12 +16,14 @@ import { MatCard } from '@angular/material/card';
 import { AdvertenciasComponent } from './advertencias/advertencias.component';
 
 
+
+
 @NgModule({
   declarations: [				
     AppComponent,
     RecomendacionesComponent,
     DetalleRecomendacionComponent,
-      AdvertenciasComponent
+    AdvertenciasComponent
    ],
   imports: [
     BrowserModule,
