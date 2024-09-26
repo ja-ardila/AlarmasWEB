@@ -9,11 +9,13 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { DetalleRecomendacionComponent } from './detalle-recomendacion/detalle-recomendacion.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
-    RecomendacionesComponent
+    RecomendacionesComponent,
+      DetalleRecomendacionComponent
    ],
   imports: [
     BrowserModule,

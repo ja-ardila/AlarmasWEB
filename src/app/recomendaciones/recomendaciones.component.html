@@ -1,3 +1,4 @@
+<body>
 <header class="header">
   <div class="title-right">
     <h2>Fit Alarm</h2>
@@ -35,12 +36,13 @@
       
       <mat-button-toggle-group
         [hideSingleSelectionIndicator]="true"
+        *ngFor="let num of [].constructor(9); let i = index"
         >
-        <mat-button-toggle class="recomendacion-button">Recomendación</mat-button-toggle>
+        <mat-button-toggle class="recomendacion-button" [routerLink]="['/detalle-recomendacion', i+1]">Recomendación #{{i+1}}</mat-button-toggle>
         <mat-button-toggle class="descartar-button">Descartar</mat-button-toggle>
         <mat-button-toggle class="aceptar-button">Aceptar</mat-button-toggle>
       </mat-button-toggle-group>
 
-
   </div>
 </div>
+</body>

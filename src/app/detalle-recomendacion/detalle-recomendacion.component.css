@@ -19,19 +19,6 @@ body::before {
     z-index: -1; /* Mantiene la imagen detrás del contenido */
 }
 
-.naranja {
-    background-color: #FF7A3D;
-  }
-
-.rojo {
-background-color: #FF423D;
-}
-
-.white-icon {
-color: white;
-opacity: 1;
-}
-
 .header {
     background-color: #FF7A3D; /* Color de fondo */
     color: black; /* Color del texto */
@@ -52,62 +39,3 @@ opacity: 1;
     text-align: right;
     padding-right: 15%;
 }
-
-#big-fab {
-    transform: scale(2);
-    display:flex;
-    margin: 40px;
-    margin-bottom: 55px;
-}
-
-.layout {
-    display: flex;
-    height: calc(100vh - 190px);
-}
-
-.sidebar {
-    width: 27vw;        
-    color: white;         
-    display: flex;       
-    flex-direction: column;   
-    justify-content: center;
-    align-items: center;   
-    padding: 20px;           
-    color: black;
-}
-
-.main-content {
-    flex: 1;
-    padding: 70px 160px 60px 0px;       
-}
-
-.aceptar-button{
-    background-color: #3DFF81;
-    color: black;
-}
-
-.descartar-button{
-    background-color: #FF423D;
-    color: white;
-}
-
-.recomendacion-button {
-    flex: 1 1 100%;
-    background-color: #3DABFF;
-    color: black;
-}
-
-.mat-button-toggle{
-    border: black;
-}
-
-.mat-button-toggle.mat-button-toggle-checked {
-    background-color: #FF7A3D;
-    color: white;
-}
-
-.mat-button-toggle-group {
-    display: flex;
-    margin: 10px 0;
-}
-
