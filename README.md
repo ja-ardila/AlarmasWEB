@@ -1,6 +1,13 @@
 # AlarmasWeb
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version:
+
+Angular CLI: 18.2.6
+Node: 18.19.0
+Package Manager: npm 10.2.3
+OS: darwin arm64
+
+Angular: 18.2.6
 
 ## Development server
 
