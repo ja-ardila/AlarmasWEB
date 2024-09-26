@@ -10,6 +10,36 @@
 
 <mat-divider></mat-divider>
 
-<h3>Recomendación #{{numero}}</h3>
+
+<div class="contenedor-principal">
+  <div class="contenedor-superior">
+    <!-- Contenido del contenedor superior que ocupa el ancho completo -->
+    <p style="font-size:x-large; margin-left: 6%;">Recomendación #{{numero}}</p>
+  </div>
+
+  <div class="contenedor-abajo">
+    <div class="contenedor-izquierda">
+      <!-- Contenido del contenedor izquierdo -->
+       <p style="margin-left: 15%; font-size: 16dp;">Fecha</p>
+      <app-date></app-date>
+    </div>
+
+    <div class="contenedor-derecha">
+      <div class="contenedor-arriba-derecha">
+        <!-- Contenido del contenedor derecho superior -->
+        <p style="font-size: 16dp;">Hora</p>
+      </div>
+      <div class="contenedor-abajo-derecha">
+        <!-- Contenido del contenedor derecho inferior -->
+        Detalles <br>
+        Esta es una alarma para comenzar con los recordatorios de hidratación. <br>
+        Beneficios <br>
+        Esta alarma te ayudará a familiarizarte con la app. <br>
+        ¿Por qué se recomienda? <br>
+        Esta es una alarma predeterminada de hidratación para nuevos en la app.
+      </div>
+    </div>
+  </div>
+</div>
 
 </body>

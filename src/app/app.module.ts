@@ -10,12 +10,16 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { DetalleRecomendacionComponent } from './detalle-recomendacion/detalle-recomendacion.component';
+import { DateComponent } from './date/date.component';
+import { MatCalendar } from '@angular/material/datepicker';
+import { MatCard } from '@angular/material/card';
+
 
 @NgModule({
-  declarations: [		
+  declarations: [			
     AppComponent,
     RecomendacionesComponent,
-      DetalleRecomendacionComponent
+    DetalleRecomendacionComponent
    ],
   imports: [
     BrowserModule,
@@ -23,7 +27,10 @@ import { DetalleRecomendacionComponent } from './detalle-recomendacion/detalle-r
     MatIconModule,
     MatButtonModule,
     MatDividerModule,
-    MatButtonToggleModule
+    MatButtonToggleModule,
+    MatCalendar,
+    MatCard,
+    DateComponent
   ],
   providers: [
     provideAnimationsAsync()
