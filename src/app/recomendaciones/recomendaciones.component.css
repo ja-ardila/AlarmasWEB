@@ -1,0 +1,87 @@
+.naranja {
+    background-color: #FF7A3D;
+  }
+
+.rojo {
+background-color: #FF423D;
+}
+
+.white-icon {
+color: white;
+opacity: 1;
+}
+
+.header {
+    background-color: #FF7A3D; /* Color de fondo */
+    color: black; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Sombra tipo drop shadow */
+    position: relative; 
+    z-index: 1; 
+    height: 189px;
+}
+
+.title-left {
+    text-align: left;
+    padding-left: 19%;
+}
+
+.title-right {
+    text-align: right;
+    padding-right: 15%;
+}
+
+#big-fab {
+    transform: scale(2);
+    display:flex;
+    margin: 40px;
+}
+
+.layout {
+    display: flex;
+    height: calc(100vh - 190px);
+}
+
+.sidebar {
+    width: 27vw;             /* Ancho fijo para la sidebar */
+    color: white;             /* Color del texto en la sidebar */
+    display: flex;            /* Habilita flexbox en la sidebar */
+    flex-direction: column;   /* Organiza los elementos en columna */
+    justify-content: center;
+    align-items: center;   
+    padding: 20px;           /* Espaciado interno */
+    color: black;
+}
+
+.main-content {
+    flex: 1;                  /* Ocupa el espacio restante */
+    background-color: #9900002e; /* Color de fondo del contenido principal */
+    padding: 70px 160px 60px 0px;          /* Espaciado interno */
+}
+
+.aceptar-button{
+    background-color: #3DFF81;
+    color: black;
+}
+
+.descartar-button{
+    background-color: #FF423D;
+    color: white;
+}
+
+.recomendacion-button {
+    flex: 1 1 100%;
+    background-color: #3DABFF;
+    color: black;
+}
+
+.mat-button-toggle.mat-button-toggle-checked {
+    background-color: #FF7A3D; /* Color cuando está seleccionado */
+    color: white;
+}
+
+.mat-button-toggle-group {
+    display: flex; /* Asegúrate de que el contenedor use flexbox */
+}
+

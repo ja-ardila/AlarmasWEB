@@ -1,0 +1,46 @@
+<header class="header">
+  <div class="title-right">
+    <h2>Fit Alarm</h2>
+  </div>
+  <div class="title-left">
+    <h2>Recomendaciones de alarma</h2>
+  </div>
+</header>
+
+<mat-divider></mat-divider>
+
+
+<div class="layout">
+  <div class="sidebar">
+      <div class="item">Panel</div>
+      <div>
+        <button mat-fab class="naranja" id="big-fab">
+          <mat-icon class="white-icon">stars</mat-icon>
+        </button>
+      </div>
+      <div class="item">Recomendaciones</div>
+      <div>
+        <button mat-fab class="rojo" id="big-fab">
+          <mat-icon class="white-icon">check_box</mat-icon>
+        </button>
+      </div>
+      <div class="item">Advertencias</div>
+      <div>
+        <button mat-fab class="naranja" id="big-fab">
+          <mat-icon class="white-icon">error</mat-icon>
+        </button>
+      </div>
+  </div>
+  <div class="main-content">
+      
+      <mat-button-toggle-group
+        [hideSingleSelectionIndicator]="true"
+        >
+        <mat-button-toggle class="recomendacion-button">Recomendación</mat-button-toggle>
+        <mat-button-toggle class="descartar-button">Descartar</mat-button-toggle>
+        <mat-button-toggle class="aceptar-button">Aceptar</mat-button-toggle>
+      </mat-button-toggle-group>
+
+
+  </div>
+</div>
