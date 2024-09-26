@@ -28,17 +28,25 @@
       <div class="contenedor-arriba-derecha">
         <!-- Contenido del contenedor derecho superior -->
         <p style="font-size: 16dp;">Hora</p>
+        <img src="/assets/time_picker.png" style="width: 50%;">
       </div>
       <div class="contenedor-abajo-derecha">
         <!-- Contenido del contenedor derecho inferior -->
-        Detalles <br>
-        Esta es una alarma para comenzar con los recordatorios de hidratación. <br>
-        Beneficios <br>
-        Esta alarma te ayudará a familiarizarte con la app. <br>
-        ¿Por qué se recomienda? <br>
-        Esta es una alarma predeterminada de hidratación para nuevos en la app.
+         <div style="background-color: white;">
+          <p style="font-size: 16dp; font-weight: 500;">Detalles</p>
+          <p style="font-size: 14dp;">Esta es una alarma para comenzar con los recordatorios de hidratación.</p>
+          <p style="font-size: 16dp; font-weight: 500;">Beneficios</p>
+          <p style="font-size: 14dp;">Esta alarma te ayudará a familiarizarte con la app.</p>
+          <p style="font-size: 16dp; font-weight: 500;">¿Por qué se recomienda?</p>
+          <p style="font-size: 14dp;">Esta es una alarma predeterminada de hidratación para nuevos en la app.</p>
+         </div>
+        
       </div>
     </div>
+  </div>
+  <div class="contenedor-inferior">
+    <button mat-raised-button routerLink="/recomendaciones" class="descartar">Descartar</button>
+    <button mat-raised-button routerLink="/recomendaciones" class="aceptar">Aceptar</button>
   </div>
 </div>
 

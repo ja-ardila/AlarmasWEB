@@ -47,11 +47,9 @@ body::before {
     min-height: 50vh; /* Altura completa de la ventana */
     width: 70vw;
     margin: auto;
-    margin-top: 20px;
   }
   
   .contenedor-superior {
-    background-color: lightblue; /* Color del contenedor superior */
     height: 20%; /* Ocupa un 20% de la altura total */
     width: 100%; /* Ocupa el ancho completo */
     padding: 40px 0;
@@ -63,7 +61,6 @@ body::before {
   }
   
   .contenedor-izquierda {
-    background-color: lightcoral; /* Color del contenedor izquierdo */
     width: 40%; /* Ocupa el 50% del ancho del contenedor principal */
   }
   
@@ -74,14 +71,27 @@ body::before {
   }
   
   .contenedor-arriba-derecha {
-    background-color: lightgreen; /* Color del contenedor derecho superior */
     flex: 1; /* Ocupa el 50% de la altura del contenedor derecho */
     padding-left: 10%;
   }
   
   .contenedor-abajo-derecha {
-    background-color: lightpink; /* Color del contenedor derecho inferior */
     flex: 1; /* Ocupa el 50% de la altura del contenedor derecho */
     padding-left: 10%;
   }
+
+  .contenedor-inferior {
+    height: 20%; /* Ocupa un 20% de la altura total */
+    width: 100%; /* Ocupa el ancho completo */
+    padding: 10px 0;
+    text-align: right;
+  }
+
+  .descartar{
+    background-color: #FF423D;
+    margin-right: 15px;
+  }
   
+  .aceptar{
+    background-color: #3DFF81;
+  }
