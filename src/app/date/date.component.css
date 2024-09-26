@@ -1,0 +1,20 @@
+.demo-inline-calendar-card {
+    width: calc(50%-12%-12%);
+    background-color: #FF423D;
+    color: black;
+    margin: 0 15%;
+  }
+
+
+/* Ajustar el estilo del texto */
+.mat-calendar-body-cell-content {
+    color: black; /* Aplicar el color blanco a los días */
+}
+
+/* Estilo para el día seleccionado */
+.mat-calendar-selected {
+    background-color: #4C4C4C !important; /* Gris oscuro para el día seleccionado */
+    color: white !important;
+}
+  
+  
