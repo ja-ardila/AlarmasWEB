@@ -1,0 +1,112 @@
+body {
+    position: relative;
+    margin: 0;
+    height: 100vh; /* Ocupar toda la altura de la página */
+    background-color: transparent; /* Asegura que el fondo detrás de la imagen sea visible */
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/fondo_relojes.png'); /* Ruta a tu imagen */
+    background-repeat: repeat-x; /* Repetir horizontalmente */
+    background-size: auto 100%; /* Ajustar altura y repetir horizontalmente */
+    opacity: 0.05; /* 5% de opacidad */
+    z-index: -1; /* Mantiene la imagen detrás del contenido */
+}
+
+.naranja {
+    background-color: #FF7A3D;
+  }
+
+.rojo {
+background-color: #FF423D;
+}
+
+.white-icon {
+color: white;
+opacity: 1;
+}
+
+.header {
+    background-color: #FF7A3D; /* Color de fondo */
+    color: black; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Sombra tipo drop shadow */
+    position: relative; 
+    z-index: 1; 
+    height: 189px;
+}
+
+.title-left {
+    text-align: left;
+    padding-left: 19%;
+}
+
+.title-right {
+    text-align: right;
+    padding-right: 15%;
+}
+
+#big-fab {
+    transform: scale(2);
+    display:flex;
+    margin: 40px;
+    margin-bottom: 55px;
+}
+
+.layout {
+    display: flex;
+    height: calc(100vh - 190px);
+}
+
+.sidebar {
+    width: 27vw;        
+    color: white;         
+    display: flex;       
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;   
+    padding: 20px;           
+    color: black;
+}
+
+.main-content {
+    flex: 1;
+    padding: 70px 160px 60px 0px;       
+}
+
+.aceptar-button{
+    background-color: #3DFF81;
+    color: black;
+}
+
+.descartar-button{
+    background-color: #FF423D;
+    color: white;
+}
+
+.recomendacion-button {
+    flex: 1 1 100%;
+    background-color: #3DABFF;
+    color: black;
+}
+
+.mat-button-toggle{
+    border: black;
+}
+
+.mat-button-toggle.mat-button-toggle-checked {
+    background-color: #FF7A3D;
+    color: white;
+}
+
+.mat-button-toggle-group {
+    display: flex;
+    margin: 10px 0;
+}

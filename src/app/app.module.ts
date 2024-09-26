@@ -13,13 +13,15 @@ import { DetalleRecomendacionComponent } from './detalle-recomendacion/detalle-r
 import { DateComponent } from './date/date.component';
 import { MatCalendar } from '@angular/material/datepicker';
 import { MatCard } from '@angular/material/card';
+import { AdvertenciasComponent } from './advertencias/advertencias.component';
 
 
 @NgModule({
-  declarations: [			
+  declarations: [				
     AppComponent,
     RecomendacionesComponent,
-    DetalleRecomendacionComponent
+    DetalleRecomendacionComponent,
+      AdvertenciasComponent
    ],
   imports: [
     BrowserModule,
