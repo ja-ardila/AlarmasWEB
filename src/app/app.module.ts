@@ -11,11 +11,15 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { DetalleRecomendacionComponent } from './detalle-recomendacion/detalle-recomendacion.component';
 
+
+
 @NgModule({
   declarations: [		
     AppComponent,
     RecomendacionesComponent,
-      DetalleRecomendacionComponent
+      DetalleRecomendacionComponent,
+      
+      
    ],
   imports: [
     BrowserModule,
