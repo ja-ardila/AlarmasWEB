@@ -37,3 +37,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 # AlarmasWEB
 Repositorio para maquetación de alarmas web.
+
+Clonar el repositorio y dentro de la carpeta AlarmasWEB correr el comando npm install y luego ng serve para desplegar el proyecto en el puerto 4200.
