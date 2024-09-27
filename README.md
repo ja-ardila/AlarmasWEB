@@ -39,3 +39,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Repositorio para maquetación de alarmas web.
 
 Clonar el repositorio y dentro de la carpeta AlarmasWEB correr el comando npm install y luego ng serve para desplegar el proyecto en el puerto 4200.
+
+# video
+
+
+https://github.com/user-attachments/assets/29370b81-4676-4a88-9449-c82be1b9d092
+
+
